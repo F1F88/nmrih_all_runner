@@ -43,7 +43,7 @@
 
 <pre>
 sm_all_runner_enable                -   default:  1   -   是否启用插件
-sm_all_runner_conversion_crawler    -   default:  1   -   是否转变爬行者
+sm_all_runner_transform_crawler     -   default:  1   -   是否转变爬行者
 sm_all_runner_set_health_runner     -   default:  0   -   设置原始生成的跑尸生命值（0=与当前模式跑尸默认生命值相同）
 sm_all_runner_set_health_kid        -   default:  0   -   设置原始生成的丧尸小孩生命值（0=与当前模式丧尸小孩默认生命值相同）
 sm_all_runner_set_health_turned     -   default:  0   -   设置原始生成的丧尸队友生命值（0=与当前模式跑尸默认生命值相同）

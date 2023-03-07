@@ -30,13 +30,13 @@ public void OnPluginStart()
     ConVar convar;
     (convar = CreateConVar("sm_all_runner_enable",              "1", "Whether to enable the plugins")).AddChangeHook(On_ConVar_change);
     g_plugin_enable = convar.BoolValue;
-    (convar = CreateConVar("sm_all_runner_conversion_crawler",  "1", "Whether to convert crawler")).AddChangeHook(On_ConVar_change);
+    (convar = CreateConVar("sm_all_runner_transform_crawler",   "1", "Whether to transform the crawler")).AddChangeHook(On_ConVar_change);
     g_conversion_crawler = convar.BoolValue;
-    (convar = CreateConVar("sm_all_runner_set_health_runner",   "0", "Set the runner HP volume (0=Auto match difficulty)")).AddChangeHook(On_ConVar_change);
+    (convar = CreateConVar("sm_all_runner_set_health_runner",   "0", "Set the runner HP (0=Auto match difficulty)")).AddChangeHook(On_ConVar_change);
     g_set_health_runner = convar.IntValue;
-    (convar = CreateConVar("sm_all_runner_set_health_kid",      "0", "Set the kid HP volume (0=Auto match difficulty)")).AddChangeHook(On_ConVar_change);
+    (convar = CreateConVar("sm_all_runner_set_health_kid",      "0", "Set the kid HP (0=Auto match difficulty)")).AddChangeHook(On_ConVar_change);
     g_set_health_kid = convar.IntValue;
-    (convar = CreateConVar("sm_all_runner_set_health_turned",   "0", "Set the turned HP volume (0=Auto match difficulty)")).AddChangeHook(On_ConVar_change);
+    (convar = CreateConVar("sm_all_runner_set_health_turned",   "0", "Set the turned HP (0=Auto match difficulty)")).AddChangeHook(On_ConVar_change);
     g_set_health_turned = convar.IntValue;
     (convar = CreateConVar("sm_all_runner_set_health_crawler",  "0", "Set the amount of health that crawler zombie converts to runner (0=Auto match difficulty)")).AddChangeHook(On_ConVar_change);
     g_set_health_crawler = convar.IntValue;

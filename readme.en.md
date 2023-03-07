@@ -43,7 +43,7 @@ The crawler transition is enabled by default, and you can turn off the crawler a
 
 <pre>
 sm_all_runner_enable                -   default:  1   -   Whether to enable the plugins
-sm_all_runner_conversion_crawler    -   default:  1   -   Whether to transform the crawler
+sm_all_runner_transform_crawler     -   default:  1   -   Whether to transform the crawler
 sm_all_runner_set_health_runner     -   default:  0   -   Set the runner HP (0=Auto match difficulty)
 sm_all_runner_set_health_kid        -   default:  0   -   Set the kid HP (0=Auto match difficulty)
 sm_all_runner_set_health_turned     -   default:  0   -   Set the turned HP (0=Auto match difficulty)
